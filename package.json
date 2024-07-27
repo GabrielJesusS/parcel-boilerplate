@@ -1,15 +1,19 @@
 {
   "name": "parcel-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
-    "dev": "parcel source/pages/**/*.html",
-    "build": "parcel build source/pages/**/*.html",
+    "dev": "parcel source/pages/**/*.html --open",
+    "build": "parcel build --dist-dir $npm_package_config_output --public-url $npm_package_config_assets source/pages/**/*.html",
     "lint": "biome lint source/scripts/*.ts",
     "lint:fix": "biome lint --write source/scripts/*.ts"
   },
   "keywords": [],
   "author": "Gabriel Jesus",
   "description": "An parcel boilerplate",
+  "config": {
+    "assets": ".",
+    "output": "./dist"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "@parcel/plugin": "^2.12.0",
