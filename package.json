@@ -12,7 +12,7 @@
   "description": "An parcel boilerplate",
   "config": {
     "assets": ".",
-    "output": "./dist"
+    "output": "./out"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
