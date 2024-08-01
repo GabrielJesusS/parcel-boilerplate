@@ -11,6 +11,7 @@ jobs:
 
     permissions:
       pages: write
+      contents: write
 
     steps:
       - name: Checkout repository
