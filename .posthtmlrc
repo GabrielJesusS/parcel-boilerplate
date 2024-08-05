@@ -3,6 +3,10 @@
     "posthtml-doctype": { "doctype": "HTML 5" },
     "posthtml-include"  : {
       "root" : "source/partials"
+    },
+    "posthtml-component" : {
+      "root" : "source/components",
+      "tag-prefix": "x-"
     }
   }
 }
