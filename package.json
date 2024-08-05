@@ -1,6 +1,6 @@
 {
   "name": "parcel-boilerplate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "dev": "parcel source/pages/**/*.html --open",
     "build": "parcel build --dist-dir $npm_package_config_output --public-url $npm_package_config_assets source/pages/**/*.html",
